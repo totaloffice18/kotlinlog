@@ -13,13 +13,15 @@ class MainActivity : AppCompatActivity() {
 
         // クラス
         val dog = Dog("ポチ", 3)  // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
-        val human = Human("かずや",52)
+        val human = Human("かずや",52,)
+        val hobby = Human("エネルギー")
 
         dog.say()
         human.say()
         human.think()
-
-
-
     }
+
+
+
+
 }

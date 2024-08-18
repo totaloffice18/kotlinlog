@@ -6,8 +6,7 @@ open class Dog: Animal, Movable {
     // 引数付きコンストラクタ
     constructor(name: String, age: Int): super(name, age) {
     }
-
-    // Animalクラスのメソッドをオーバーライド
+         // Animalクラスのメソッドをオーバーライド
     override fun say() {
         Log.d("kotlintest", this.name + "(" + this.age + "歳)" + "「ワンワン」")
     }
