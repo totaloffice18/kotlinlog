@@ -12,12 +12,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // クラス
-        val dog = Dog("ポチ", 3)  // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
         val human = Human("かずや",52,"エネルギー")
 
-        dog.say()
         human.say()
         human.think()
+
+        val human2 = Human("てつと",23,"AI")
+
+        human2.say()
+        human2.think()
+
     }
 
 
